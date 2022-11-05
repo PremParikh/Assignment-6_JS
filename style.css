@@ -1,0 +1,88 @@
+html, body{
+    margin: 0px;
+    font-size: 18px;
+    font-family: arial;
+}
+h1{
+    font-family:fantasy;
+   
+    color: rgb(62, 102, 62);
+}
+body{
+   
+    background-image: url(https://previews.123rf.com/images/cluckva/cluckva1406/cluckva140600040/29190284-abstract-background-illustration-used-opacity-mask-and-transparency-layers-of-background.jpg);
+    
+}
+.Stat{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: #cf66ff;
+    font-size: 40px;
+}
+.new{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav{
+    padding: 20px;
+    border: 5px solid burlywood;
+    border-radius: 50px;
+    margin: 20px;
+    list-style: none;
+    
+   
+}
+.nav li{
+    display: inline-block;
+    padding: 15px 35px;
+    background: #5e98c5;
+    min-width: 100px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.nav li.active,
+.nav li:hover{
+    background: #b411ff;
+}
+/* .area{} */
+.con{
+    padding: 30px;
+    background: #4e4a3c;
+    border-radius: 10px;
+    color: rgb(243, 146, 146);
+
+    display: none;
+}
+img{
+    width: 300px;
+}
+
+img:hover{
+    border: 5px solid rgb(182, 0, 0);
+}
+
+.st3{
+    padding: 15px 40px 15px 0;
+   
+    position: relative;
+    color: rgb(122, 122, 105);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800px;
+}
+.st3 i{
+    position: absolute;
+    right:  0;
+    top: 16px;
+    font-size: 10px;
+}
+.desc{
+    display: none;
+}
+.desc p{
+    margin-top: 0px;
+    line-height: 1.6;
+}
